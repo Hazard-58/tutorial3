@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    background-color: hsl(217deg 47% 21% / 61%);;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.container .image img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.container .text {
+    margin: 25px;
+}
+
+.container .text h1 {
+    color: white;
+}
+
+.container .text h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+.container .text p {
+    color: rgb(166, 166, 166);
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.container .end1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .end1 span:first-of-type {
+    color: hsl(178, 100%, 50%);
+    font-size: 20px;
+}
+.container .end1 span:first-of-type i {
+    padding-right: 5px
+}
+
+.container .end1 span:last-of-type {
+    color: rgb(166, 166, 166);
+}
+
+.container .end1 span:last-of-type i {
+    padding-right: 5px;
+}
+
+.container hr {
+    opacity: 0.1;
+}
+.container .end {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(166, 166, 166);
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+.container .end img {
+    width: 50px;
+    max-width: 100%;
+    margin-right: 30px;
+}
+
+.container .end span {
+    color: white;
+    padding-left: 5px;
+}
+.container .end span:hover {
+    color: hsl(178, 100%, 50%); 
+    cursor: pointer;
+}
